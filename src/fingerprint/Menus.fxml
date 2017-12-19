@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="665.0" prefWidth="778.0" styleClass="gradient" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fingerprint.MenusController">
+   <children>
+      <JFXButton fx:id="btnsearch" buttonType="RAISED" layoutX="346.0" layoutY="102.0" onAction="#editDriver" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: #00B3A0;" text="Search" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane fx:id="paneBuses" layoutX="472.0" layoutY="202.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#switchToBuses" prefHeight="239.0" prefWidth="248.0" styleClass="menus">
+         <children>
+            <ImageView fx:id="image2" fitHeight="199.0" fitWidth="209.0" layoutX="22.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="paneUsers" layoutX="76.0" layoutY="202.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#switchToUsers" prefHeight="239.0" prefWidth="248.0" styleClass="menus">
+         <children>
+            <ImageView fx:id="image0" fitHeight="199.0" fitWidth="202.0" layoutX="19.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <JFXTextField fx:id="txtName" focusColor="#6c8be8" labelFloat="true" layoutX="81.0" layoutY="159.0" prefHeight="28.0" prefWidth="153.0" promptText="Name" unFocusColor="WHITE">
+         <font>
+            <Font name="Roboto Medium" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="btnload" buttonType="RAISED" layoutX="246.0" layoutY="155.0" onAction="#Load" prefHeight="37.0" prefWidth="65.0" style="-fx-background-color: #00AACF;" text="load" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="labSearch" alignment="CENTER" contentDisplay="RIGHT" layoutX="330.0" layoutY="304.0" prefHeight="35.0" prefWidth="136.0" textFill="#d7d1d1">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="labfound" contentDisplay="RIGHT" layoutX="203.0" layoutY="458.0" prefHeight="35.0" prefWidth="422.0" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
