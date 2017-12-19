@@ -14,3 +14,8 @@ thus allowing faster and more efficient feature extraction and axiomatically ove
 This phase is concerned with the extraction of useful features in the preprocessed image, and then the extracted features of the input fingerprint would be reorganized and then compared to the features of existing fingerprints in the database. This is conducted through crossing number algorithm to calculate useful features and then compare them with existing fingerprints.
 Results
 After implementing the project, Simple Fingerprint Minutiae Extraction using Crossing Number is proved to efficient and fast algorithm, relative to other algorithms widely used, this is part of the reason behind the very common use of this algorithm in many application.
+
+## Crossing Number algorithm
+![cn](https://user-images.githubusercontent.com/28839121/34172197-e846a55e-e4f9-11e7-93c9-8a373f567673.png)
+![cn2](https://user-images.githubusercontent.com/28839121/34172182-ddcb3c7a-e4f9-11e7-938d-27c01383955d.png)
+
